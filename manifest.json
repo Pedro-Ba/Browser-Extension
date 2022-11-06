@@ -1,0 +1,39 @@
+{
+	"manifest_version": 3,
+	"name": "yt dlder test ver",
+	"description": "sei la so to testando as coisa lol",
+	"version": "1.0",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": [
+		"tabs",
+		"storage",
+		"activeTab",
+		"scripting",
+		"downloads"
+	],
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "/icon.png",
+			"32": "/icon.png",
+			"48": "/icon.png",
+			"128": "/icon.png"
+		}
+	},
+	"icons": {
+		"16": "/icon.png",
+		"32": "/icon.png",
+		"48": "/icon.png",
+		"128": "/icon.png"
+	},
+	"commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+F"
+			},
+			"description": "Changes color?"
+		}
+	}
+}
